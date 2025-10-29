@@ -3,7 +3,10 @@ info:
   title: Task API
   version: 1.0.0
 servers:
-  - url: http://localhost:5432
+  - url: http://localhost:3000
+    description: Local development servers
+  - url: https://task-api-wfa7.onrender.com
+    description: Production server on render
 tags:
   - name: Tasks
     description: Task-related endpoints
